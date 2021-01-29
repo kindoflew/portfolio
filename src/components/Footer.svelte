@@ -59,4 +59,14 @@
     display: inline-block;
     margin-right: 2rem;
   }
+
+  @media (max-width: 620px) {
+    footer {
+      justify-content: center;
+    }
+
+    a {
+      margin: 0 1rem;
+    }
+  }
 </style>

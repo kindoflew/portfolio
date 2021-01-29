@@ -94,4 +94,10 @@
       font-size: 2rem;
     }
   }
+
+  @media (max-width: 430px) {
+    p {
+      font-size: 1.7rem;
+    }
+  }
 </style>
