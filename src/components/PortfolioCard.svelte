@@ -1,0 +1,79 @@
+<script>
+  export let project;
+  let { title, url, code, description, img } = project;
+</script>
+
+<div class="card">
+  <div class="img-wrapper">
+    <img src={img} alt="Screenshot of {title}" />
+  </div>
+  <div class="content">
+    <h3>{title}</h3>
+    <p>{description}</p>
+    <div class="links">
+      <a href={url} target="_blank">Site</a>
+      <a href={code} target="_blank">Code</a>
+    </div>
+  </div>
+</div>
+
+<style>
+  .card {
+    border: 10px solid var(--light);
+    background-color: var(--dark);
+    box-shadow: var(--purple) 10px 10px 0;
+  }
+
+  .content {
+    padding: 1rem;
+    min-height: 10rem;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    font-size: 1.3rem;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 2.5rem;
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  a {
+    padding: 0.7rem;
+    border: 5px solid var(--light);
+    color: var(--light);
+    flex: 0;
+    text-align: center;
+    min-width: 30%;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: var(--dark);
+    background-color: var(--light);
+  }
+
+  a:focus {
+    outline: 3px dashed var(--highlight);
+    text-decoration: none;
+  }
+
+</style>
