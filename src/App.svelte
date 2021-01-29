@@ -33,16 +33,19 @@
     position: relative;
   }
 
-  h2::after {
+  h2::after,
+  .active::after {
     content: "";
     position: absolute;
     display: inline-block;
-    width: 11.5rem;
     height: 1rem;
-    top: 28px;
-    left: 10px;
     background-color: var(--purple);
     z-index: -1;
+  }
+
+  h2::after {
+    top: 28px;
+    left: 10px;
   }
 
   p, label {

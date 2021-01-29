@@ -57,16 +57,11 @@
     position: relative;
   }
 
-  /* :global(.active::after) {
-    content: '';
-    position: absolute;
-    background-color: var(--dark);
-    height: 0.5rem;
+  :global(.active::after) {
     width: 100%;
-    bottom: -2.5rem;
-    left: 0;
-    right: 0;
-  } */
+    top: 15px;
+    left: 10px;
+  }
 
   @media (max-width: 800px) {
     header {
