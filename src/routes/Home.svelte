@@ -99,5 +99,9 @@
     p {
       font-size: 1.7rem;
     }
+
+    div {
+      margin-bottom: 5rem;
+    }
   }
 </style>
