@@ -127,16 +127,4 @@
     color: var(--dark);
     cursor: pointer;
   }
-
-  @media (max-width: 1200px) {
-    form {
-      width: 60%;
-    }
-  }
-
-  @media (max-width: 800px) {
-    form {
-      width: calc(100% - 4.5rem);
-    }
-  }
 </style>
