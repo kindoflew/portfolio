@@ -20,6 +20,7 @@
     color: var(--light);
     overflow-y: scroll;
     display: flex;
+    min-height: 100vh;
     width: 100%;
     justify-content: center;
     background-color: var(--dark);

@@ -1,6 +1,6 @@
 <script>
   import typewriter from "../utils/typewriter.js";
-  // import Footer from "../components/Footer.svelte";
+  import Footer from "../components/Footer.svelte";
 
   let blink = false;
   // typewriter only works on elements with one child text node
@@ -23,30 +23,37 @@
   <title>Lewis D'Avanzo | Web Developer</title>
 </svelte:head>
 
-<p 
-  in:typewriter 
-  on:introend={nextLine} 
-  class:blink 
-  class:cursor={line1}
->
-  front-end web developer
-</p>
-<p
-  in:typewriter={{ delay: 1840 }}
-  on:introend={introEnd}
-  class:blink
-  class:cursor={line2}
-  class="comment"
->
-  // i like to make stuff
-</p>
+<div>
+  <p 
+    in:typewriter 
+    on:introend={nextLine} 
+    class:blink 
+    class:cursor={line1}
+  >
+    front-end web developer
+  </p>
+  <p
+    in:typewriter={{ delay: 1840 }}
+    on:introend={introEnd}
+    class:blink
+    class:cursor={line2}
+    class="comment"
+  >
+    // i like to make stuff
+  </p>
+</div>
 
-<!-- <Footer /> -->
+<Footer />
 
 <style>
+  div {
+    margin: 8rem 0 8rem;
+    height: 8rem;
+  }
+
   p {
     font-size: 3rem;
-    margin: 8rem 0 0;
+    margin: 0;
     opacity: 1;
     position: relative;
   }
@@ -54,7 +61,6 @@
   .comment {
     font-style: italic;
     color: #928374;
-    margin-top: 0;
   }
 
   .cursor::after {
@@ -79,6 +85,10 @@
   }
 
   @media (max-width: 620px) {
+    div {
+      height: 6rem;
+      margin: 6rem 0 10rem;
+    }
     p {
       width: 100%;
       font-size: 2rem;

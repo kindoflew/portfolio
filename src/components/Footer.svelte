@@ -2,7 +2,7 @@
   
 </script>
 
-<div>
+<footer>
   <a
     href="https://www.github.com/kindoflew"
     target="_blank"
@@ -36,16 +36,13 @@
       />
     </svg>
   </a>
-</div>
+</footer>
 
 <style>
-  div {
+  footer {
     display: flex;
-    justify-content: center;
-    margin-top: 3rem;
-    position: absolute;
-    bottom: 2rem;
-    left: 2.5rem;
+    justify-content: flex-start;
+    width: 100%;
   }
 
   svg {
@@ -61,6 +58,6 @@
 
   a {
     display: inline-block;
-    margin: 0 1.5rem;
+    margin-right: 2rem;
   }
 </style>

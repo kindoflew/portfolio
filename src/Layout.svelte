@@ -22,13 +22,15 @@
 
 <style>
   main {
-    margin: 6rem 0 6rem;
+    height: 100%;
   }
 
   .body-wrapper {
     transition: padding 0.3s ease;
     width: 75rem;
     padding: 0 5rem;
+    /* position: relative; */
+    height: 100%;
   }
 
   @media (max-width: 900px) {

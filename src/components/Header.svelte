@@ -24,7 +24,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin-top: 3rem;
+    margin: 3rem 0 6rem;
   }
 
   h1 {
