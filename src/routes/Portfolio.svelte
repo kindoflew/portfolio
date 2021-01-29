@@ -48,5 +48,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
     gap: 2rem 2rem;
+    margin-bottom: 4rem;
   }
 </style>

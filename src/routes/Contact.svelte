@@ -90,6 +90,7 @@
     flex-direction: column;
     padding: 1rem 1.5rem;
     max-width: 32rem;
+    margin-bottom: 4rem;
   }
 
   input,

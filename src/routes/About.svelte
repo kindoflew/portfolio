@@ -37,7 +37,7 @@
       </div>
     
       <div class="list-wrapper">
-        <h3>Current Tech</h3>
+        <h3>Currently Using</h3>
         <ul>
           <li>HTML</li>
           <li>CSS</li>
@@ -58,6 +58,7 @@
   section {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 4rem;
   }
 
   p {
