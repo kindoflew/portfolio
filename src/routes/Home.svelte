@@ -23,38 +23,45 @@
   <title>Lewis D'Avanzo | Web Developer</title>
 </svelte:head>
 
-<div>
-  <p 
-    in:typewriter 
-    on:introend={nextLine} 
-    class:blink 
-    class:cursor={line1}
-  >
-    front-end web developer
-  </p>
-  <p
-    in:typewriter={{ delay: 1840 }}
-    on:introend={introEnd}
-    class:blink
-    class:cursor={line2}
-    class="comment"
-  >
-    // i like to make stuff
-  </p>
+<div class="flex-container">
+  <div class="hero-text">
+    <p 
+      in:typewriter 
+      on:introend={nextLine} 
+      class:blink 
+      class:cursor={line1}
+    >
+      front-end web developer
+    </p>
+    <p
+      in:typewriter={{ delay: 1840 }}
+      on:introend={introEnd}
+      class:blink
+      class:cursor={line2}
+      class="comment"
+    >
+      // i like to make stuff
+    </p>
+  </div>
 </div>
 
 <Footer />
 
 <style>
-  div {
-    margin: 8rem 0 8rem;
-    height: 8rem;
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40vh;
+  }
+
+  .hero-text {
+    height: 7rem;
   }
 
   p {
     font-size: 3rem;
     margin: 0;
-    opacity: 1;
     position: relative;
   }
 
@@ -84,11 +91,18 @@
     animation: 1s blink step-end infinite;
   }
 
-  @media (max-width: 620px) {
-    div {
-      height: 6rem;
-      margin: 6rem 0 10rem;
+  @media (max-width: 800px) {
+    .flex-container {
+      height: 25vh;
+      justify-content: flex-start;
     }
+  }
+
+  @media (max-width: 620px) {
+    .hero-text {
+      height: 4rem;
+    }
+
     p {
       width: 100%;
       font-size: 2rem;
@@ -98,10 +112,6 @@
   @media (max-width: 430px) {
     p {
       font-size: 1.7rem;
-    }
-
-    div {
-      margin-bottom: 5rem;
     }
   }
 </style>

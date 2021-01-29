@@ -42,6 +42,7 @@
     display: flex;
     justify-content: flex-start;
     width: 100%;
+    margin-top: 4rem;
   }
 
   svg {
@@ -63,6 +64,7 @@
   @media (max-width: 620px) {
     footer {
       justify-content: center;
+      margin-top: 2rem;
     }
 
     a {
