@@ -45,7 +45,7 @@
 
 <style>
   p {
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 8rem 0 0;
     opacity: 1;
     position: relative;
@@ -78,11 +78,10 @@
     animation: 1s blink step-end infinite;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 620px) {
     p {
       width: 100%;
-      margin-top: 2rem;
-      font-size: calc(2rem + 3vw);
+      font-size: 2rem;
     }
   }
 </style>
