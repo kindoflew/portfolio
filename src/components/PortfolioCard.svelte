@@ -19,9 +19,9 @@
 
 <style>
   .card {
-    border: 10px solid var(--light);
+    border: var(--border);
     background-color: var(--dark);
-    box-shadow: var(--purple) 10px 10px 0;
+    box-shadow: var(--box-shadow);
     position: relative;
   }
 

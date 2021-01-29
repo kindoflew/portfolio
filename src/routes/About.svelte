@@ -82,7 +82,7 @@
   .img-wrapper {
     width: 17rem;
     margin-bottom: 2.5rem;
-    border: 10px solid var(--light);
+    border: var(--border);
     box-shadow: var(--box-shadow);
   }
 

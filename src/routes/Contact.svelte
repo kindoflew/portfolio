@@ -83,9 +83,9 @@
 
   form,
   div {
-    border: 10px solid var(--light);
     background-color: var(--dark);
-    box-shadow: var(--purple) 10px 10px 0;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
     display: flex;
     flex-direction: column;
     padding: 1rem 1.5rem;
