@@ -22,6 +22,7 @@
     border: 10px solid var(--light);
     background-color: var(--dark);
     box-shadow: var(--purple) 10px 10px 0;
+    position: relative;
   }
 
   .content {
@@ -50,7 +51,10 @@
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    width: 100%;
+    position: absolute;
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
   }
 
   a {

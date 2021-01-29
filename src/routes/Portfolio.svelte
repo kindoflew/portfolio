@@ -20,7 +20,7 @@
       title: "CeeLo",
       url: "https://codepen.io/kindoflew/full/QWNRjgM",
       code: "https://codepen.io/kindoflew/pen/QWNRjgM",
-      description: "A simple dice game. The first JavaScript project I made myself.",
+      description: "A simple dice game. My first JavaScript project.",
       img: "ceelo.png",
     },
   ];
