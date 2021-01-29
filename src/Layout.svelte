@@ -6,18 +6,22 @@
   import Contact from "./routes/Contact.svelte";
   import Header from "./components/Header.svelte";
   import Transition from "./components/Transition.svelte";
+  import AriaRoute from "./components/AriaRoute.svelte";
 </script>
 
+<!--Announces navigation to screen readers-->
+<AriaRoute />
+
 <div class="body-wrapper">
-<Header />
-<Transition>
-  <main>
-    <Route path="/"> <Home /> </Route>
-    <Route path="/portfolio"> <Portfolio /> </Route>
-    <Route path="/about"> <About /> </Route>
-    <Route path="/contact"> <Contact /> </Route>
-  </main>
-</Transition>
+  <Header />
+  <Transition>
+    <main>
+      <Route path="/"><Home /></Route>
+      <Route path="/portfolio"><Portfolio /></Route>
+      <Route path="/about"><About /></Route>
+      <Route path="/contact"><Contact /></Route>
+    </main>
+  </Transition>
 </div>
 
 <style>
