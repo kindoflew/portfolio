@@ -29,7 +29,6 @@
 
   h1 {
     font-size: 3.5rem;
-    width: 17.5rem;
     margin-top: 0;
     margin-bottom: 0;
     line-height: 0.9;
@@ -57,10 +56,27 @@
     position: relative;
   }
 
-  :global(.active::after) {
-    width: 100%;
-    top: 15px;
-    left: 10px;
+  a {
+    color: var(--light);
+    text-decoration: none;
+    letter-spacing: 1px;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a[href="/"] {
+    display: inline-block;
+    width: 15rem;
+  }
+
+  a[href="/"]:hover {
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: var(--light);
   }
 
   @media (max-width: 800px) {
@@ -74,28 +90,4 @@
       margin-top: 2rem;
     }
   }
-
-  a {
-    color: var(--light);
-    text-decoration: none;
-    letter-spacing: 1px;
-  }
-
-  a:hover {
-    text-decoration: underline;
-  }
-
-  a[href="/"] {
-    display: inline-block;
-    width: 17.5rem;
-  }
-
-  a[href="/"]:hover {
-    text-decoration: none;
-  }
-
-  a:visited {
-    color: var(--light);
-  }
-  
 </style>

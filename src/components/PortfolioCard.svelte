@@ -50,7 +50,6 @@
   .links {
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
     position: absolute;
     left: 1rem;
     right: 1rem;
@@ -74,10 +73,4 @@
     color: var(--dark);
     background-color: var(--light);
   }
-
-  a:focus {
-    outline: 3px dashed var(--highlight);
-    text-decoration: none;
-  }
-
 </style>

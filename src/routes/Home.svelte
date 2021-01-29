@@ -65,7 +65,7 @@
 
   .cursor::after {
     content: "|";
-    color: #d3869b;
+    color: var(--light-purple);
     font-style: normal;
     position: absolute;
   }
@@ -76,7 +76,7 @@
       color: transparent;
     }
     50% {
-      color: #d3869b;
+      color: var(--light-purple);
     }
   }
 

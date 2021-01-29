@@ -8,8 +8,8 @@
     :root {
     --light: #fbf1c7;
     --dark: #282828;
-    --highlight: #eaa81b;
     --purple:#8f3f71;
+    --light-purple: #d3869b;
     --red: #fb4934;
     --border: 10px solid var(--light);
     --box-shadow: var(--purple) 10px 10px 0;
@@ -48,7 +48,26 @@
     left: 10px;
   }
 
-  p, label {
+  .active::after {
+    width: 100%;
+    top: 15px;
+    left: 10px;
+  }
+
+  p,
+  label {
     font-size: 1.2rem;
   }
+
+  button:focus,
+  input:focus,
+  textarea:focus,
+  a:focus {
+    outline: 3px dashed var(--light-purple);
+  }
+
+  button:focus:not(:focus-visible),
+  a:focus:not(:focus-visible) {
+    outline: none;
+}
 </style>

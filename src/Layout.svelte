@@ -29,7 +29,6 @@
     transition: padding 0.3s ease;
     width: 75rem;
     padding: 0 5rem;
-    /* position: relative; */
     height: 100%;
   }
 

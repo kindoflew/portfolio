@@ -109,12 +109,12 @@
   }
 
   a {
-    color: #d3869b;
+    color: var(--light-purple);
     text-decoration: none;
   }
 
   a:visited {
-    color: #d3869b;
+    color: var(--light-purple);
   }
 
   a:hover {

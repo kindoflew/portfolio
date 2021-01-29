@@ -78,7 +78,6 @@
     font-size: inherit;
     padding: 0.4em;
     margin: 0 0 0.5em 0;
-    box-sizing: border-box;
     border: 1px solid #ccc;
   }
 
@@ -141,5 +140,9 @@
     background-color: var(--light);
     color: var(--dark);
     cursor: pointer;
+  }
+
+  button:focus {
+    outline: 3px dashed var(--light-purple);
   }
 </style>

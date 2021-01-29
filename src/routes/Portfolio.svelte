@@ -38,8 +38,6 @@
 </div>
 
 <style>
-
-
   h2::after {
     width: 11.8rem;
   }
