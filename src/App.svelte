@@ -13,7 +13,7 @@
     --red: #9d0006;
     --border: 10px solid var(--light);
     --box-shadow: var(--purple) 10px 10px 0;
-    --font: "Ubuntu Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    --font: "Ubuntu Mono", monospace;
   }
 
   body {
