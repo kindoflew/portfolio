@@ -10,7 +10,7 @@
     --dark: #282828;
     --highlight: #eaa81b;
     --purple:#8f3f71;
-    --red: #9d0006;
+    --red: #fb4934;
     --border: 10px solid var(--light);
     --box-shadow: var(--purple) 10px 10px 0;
     --font: "Ubuntu Mono", monospace;

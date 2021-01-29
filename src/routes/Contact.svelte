@@ -1,5 +1,6 @@
 <script>
   import typewriter from "../utils/typewriter.js";
+  import { fade } from "svelte/transition";
 
   let submitted = false;
   let error = false;
@@ -30,8 +31,8 @@
 
 <h2>Contact</h2>
 {#if submitted}
-  <div>
-    <p in:typewriter>
+  <div in:fade>
+    <p in:typewriter class="success">
       Thanks for reaching out! I'll get back to you as soon as I can!
     </p>
   </div>
@@ -91,6 +92,20 @@
     padding: 1rem 1.5rem;
     max-width: 32rem;
     margin-bottom: 4rem;
+  }
+
+  div {
+    height: 22.25rem;
+  }
+
+  .success {
+    font-size: 1.5rem;
+    line-height: 1.1;
+    margin-top: 6rem;
+  }
+
+  .error {
+    color: var(--red);
   }
 
   input,

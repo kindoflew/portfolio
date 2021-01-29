@@ -1,0 +1,15 @@
+<form name="contact" id="contact-form" action="/" netlify-honeypot="bot-field" data-netlify="true" hidden>
+  <label style="display:none;">For robots only:
+    <input name="bot-field" />
+  </label>
+  <input type="hidden" name="form-name" value="contact" />
+  <label for="name">Name: </label>
+  <input type="text" id="name" name="name" required />
+
+  <label for="email">E-mail: </label>
+  <input type="email" id="email" name="email" required />
+
+  <label for="message">Message: </label>
+  <textarea id="message" name="message" required />
+  <button type="submit">Submit</button>
+</form>
