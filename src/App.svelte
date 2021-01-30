@@ -70,4 +70,10 @@
   a:focus:not(:focus-visible) {
     outline: none;
 }
+
+@media (min-width: 1500px) {
+  html {
+    font-size: 1.3em;
+  }
+}
 </style>
