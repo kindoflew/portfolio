@@ -57,6 +57,7 @@
 
   .hero-text {
     height: 7rem;
+    margin-bottom: 2rem;
   }
 
   p {
@@ -101,6 +102,7 @@
   @media (max-width: 620px) {
     .hero-text {
       height: 4rem;
+      margin-bottom: 0;
     }
 
     p {
