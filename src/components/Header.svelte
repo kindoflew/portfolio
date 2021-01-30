@@ -90,4 +90,10 @@
       margin-top: 2rem;
     }
   }
+
+  @media (max-width: 430px) {
+    header {
+      margin-top: 1.5rem;
+      }
+  }
 </style>
