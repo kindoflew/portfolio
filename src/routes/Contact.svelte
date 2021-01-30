@@ -50,10 +50,8 @@
     netlify-honeypot="bot-field"
     data-netlify="true"
   >
-    <label style="display:none;"
-      >For robots only:
-      <input name="bot-field" />
-    </label>
+    <label style="display:none;">For robots only:<input name="bot-field" /></label>
+    
     <input type="hidden" name="form-name" value="contact" />
     <label for="name">Name: </label>
     <input type="text" id="name" name="name" required />
