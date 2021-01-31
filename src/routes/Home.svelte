@@ -4,8 +4,9 @@
 
   let blink = false;
   // typewriter only works on elements with one child text node
-  // so i move the "cursor" to the end of the second line after the
-  // first finishes its animation
+  // so i have two <p>s so i can style the second line without
+  // a <span>. when a line is true, the cursor is rendered
+  // at the end.
   let line1 = true;
   let line2 = false;
 
