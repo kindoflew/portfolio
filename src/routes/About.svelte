@@ -51,10 +51,6 @@
   </section>
 
 <style>
-  h2::after {
-    width: 6.5rem;
-  }
-
   section {
     display: flex;
     justify-content: space-between;

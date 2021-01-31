@@ -38,10 +38,6 @@
 </div>
 
 <style>
-  h2::after {
-    width: 11.8rem;
-  }
-
   .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));

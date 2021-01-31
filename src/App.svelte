@@ -11,8 +11,8 @@
     --purple:#8f3f71;
     --light-purple: #d3869b;
     --red: #fb4934;
-    --border: 10px solid var(--light);
-    --box-shadow: var(--purple) 10px 10px 0;
+    --border: 0.625rem solid var(--light);
+    --box-shadow: var(--purple) 0.625rem 0.625rem 0;
     --font: "Ubuntu Mono", monospace;
   }
 
@@ -29,7 +29,9 @@
 
   h2 {
     font-size: 2.5rem;
+    margin-top: 0;
     margin-bottom: 5rem;
+    display: inline-block;
     position: relative;
   }
 
@@ -37,21 +39,20 @@
   .active::after {
     content: "";
     position: absolute;
+    left: 0.625rem;
     display: inline-block;
+    width: 100%;
     height: 1rem;
     background-color: var(--purple);
     z-index: -1;
   }
 
   h2::after {
-    top: 28px;
-    left: 10px;
+    top: 1.75rem;
   }
 
   .active::after {
-    width: 100%;
-    top: 15px;
-    left: 10px;
+    top: 0.9375rem;
   }
 
   p,

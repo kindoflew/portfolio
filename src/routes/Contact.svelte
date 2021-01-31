@@ -66,19 +66,6 @@
 {/if}
 
 <style>
-  h2::after {
-    width: 9.2rem;
-  }
-
-  input,
-  textarea {
-    font-family: inherit;
-    font-size: inherit;
-    padding: 0.4em;
-    margin: 0 0 0.5em 0;
-    border: 1px solid #ccc;
-  }
-
   form,
   div {
     background-color: var(--dark);
@@ -95,20 +82,14 @@
     height: 22.25rem;
   }
 
-  .success {
-    font-size: 1.5rem;
-    line-height: 1.1;
-    margin-top: 6rem;
-  }
-
-  .error {
-    color: var(--red);
-  }
-
   input,
   textarea {
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0.4em;
+    margin: 0 0 1em 0;
     background-color: var(--light);
-    margin-bottom: 1rem;
+    border: 1px solid #ccc;
   }
 
   textarea {
@@ -142,5 +123,15 @@
 
   button:focus {
     outline: 3px dashed var(--light-purple);
+  }
+
+  .success {
+    font-size: 1.5rem;
+    line-height: 1.1;
+    margin-top: 6rem;
+  }
+
+  .error {
+    color: var(--red);
   }
 </style>
