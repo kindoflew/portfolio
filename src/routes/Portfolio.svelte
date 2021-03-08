@@ -17,6 +17,13 @@
       img: "cryptoquote.png",
     },
     {
+      title: "Pokedex",
+      url: "https://polkadex.netlify.app",
+      code: "https://github.com/kindoflew/pokedex",
+      description: "A Pokedex built with Svelte, PokeAPI, and vanilla CSS.",
+      img: "pokedex.png",
+    },
+    {
       title: "CeeLo",
       url: "https://codepen.io/kindoflew/full/QWNRjgM",
       code: "https://codepen.io/kindoflew/pen/QWNRjgM",
