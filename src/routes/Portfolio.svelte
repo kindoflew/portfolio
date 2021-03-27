@@ -3,6 +3,13 @@
 
   const projects = [
     {
+      title: "svelte-parallax",
+      url: "https://svelte.dev/repl/b9b9935c08964edcabfb03cf0a215b66?version=3.35.0",
+      code: "https://github.com/kindoflew/svelte-parallax",
+      description: "A parallax component for Svelte that I published on npm.",
+      img: "svelte-parallax.png",
+    },
+    {
       title: "Winter Eyes, LLC",
       url: "https://www.wintereyesnj.com",
       code: "https://github.com/kindoflew/winter-eyes-nj",
@@ -10,18 +17,18 @@
       img: "wintereyes.png",
     },
     {
-      title: "Crypto.quote()",
-      url: "https://crypto-quote.netlify.app",
-      code: "https://github.com/kindoflew/crypto-quote",
-      description: "A cryptogram spin on the random quote fetch app.",
-      img: "cryptoquote.png",
-    },
-    {
       title: "Pokedex",
       url: "https://polkadex.netlify.app",
       code: "https://github.com/kindoflew/pokedex",
       description: "A Pokedex built with Svelte, PokeAPI, and vanilla CSS.",
       img: "pokedex.png",
+    },
+    {
+      title: "Crypto.quote()",
+      url: "https://crypto-quote.netlify.app",
+      code: "https://github.com/kindoflew/crypto-quote",
+      description: "A cryptogram spin on the random quote fetch app.",
+      img: "cryptoquote.png",
     },
     {
       title: "CeeLo",
@@ -48,7 +55,7 @@
   .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-    gap: 2rem 2rem;
+    gap: 2.5rem 2.5rem;
     margin-bottom: 4rem;
   }
 </style>
