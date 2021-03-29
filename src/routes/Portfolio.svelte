@@ -6,7 +6,7 @@
       title: "svelte-parallax",
       url: "https://svelte.dev/repl/b9b9935c08964edcabfb03cf0a215b66?version=3.35.0",
       code: "https://github.com/kindoflew/svelte-parallax",
-      description: "A parallax component for Svelte that I published on npm.",
+      description: "A Svelte component that I published on npm.",
       img: "svelte-parallax.png",
     },
     {
