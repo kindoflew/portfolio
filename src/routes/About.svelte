@@ -41,8 +41,8 @@
         <ul>
           <li>HTML</li>
           <li>CSS</li>
-          <li>JavaScript(ES6)</li>
-          <li>Node.js/npm</li>
+          <li>JavaScript(ES6+)</li>
+          <li>Node.js</li>
           <li>git</li>
           <li>Svelte</li>
         </ul>
