@@ -4,7 +4,7 @@
   const projects = [
     {
       title: "svelte-parallax",
-      url: "https://svelte.dev/repl/b9b9935c08964edcabfb03cf0a215b66?version=3.35.0",
+      url: "https://svelte.dev/repl/917289a96f564f3788dcb6400f44a8bc?version=3.37.0",
       code: "https://github.com/kindoflew/svelte-parallax",
       description: "A Svelte component that I published on npm.",
       img: "svelte-parallax.png",
