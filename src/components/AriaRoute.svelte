@@ -1,37 +1,22 @@
 <script>
   import { router } from "tinro";
-  import { tick } from "svelte";
 
-  let promise = getCurrentTitle();
-  router.subscribe((_) => (promise = getCurrentTitle()));
-
-  async function getCurrentTitle() {
-    await tick();
-    let title = document.querySelector("h2");
-    let current = "Lewis D'Avanzo Home";
-
-    if (title) {
-      current = title.textContent;
-    } 
-
-    return current;
-  }
+  $: current = $router.path === '/' ? "Lewis D'Avanzo home" : $router.path.slice(1);
 </script>
 
 <div aria-live="polite" aria-atomic="true">
-  {#await promise}
-    <p />
-  {:then current}
+  {#key current}
     <p>Navigated to {current} page</p>
-  {/await}
+  {/key}
 </div>
 
 <style>
-  div {
+  div, p {
     position: absolute;
     top: 0;
-    width: 1;
-    height: 1;
+    width: 1px;
+    height: 1px;
+    margin: 0;
     padding: 0;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
