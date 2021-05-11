@@ -11,8 +11,8 @@
     <h3>{title}</h3>
     <p>{description}</p>
     <div class="links">
-      <a href={url} target="_blank">Site</a>
-      <a href={code} target="_blank">Code</a>
+      <a href={url} target="_blank" rel="noopener noreferrer">Site</a>
+      <a href={code} target="_blank" rel="noopener noreferrer">Code</a>
     </div>
   </div>
 </div>
