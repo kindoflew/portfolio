@@ -4,9 +4,7 @@
 
   let blink = false;
   // typewriter only works on elements with one child text node
-  // so i have two <p>s so i can style the second line without
-  // a <span>. when a line is true, the cursor is rendered
-  // at the end.
+  // so i have two <p>s so i can style the second line without a <span>
   let line1 = true;
   let line2 = false;
 
@@ -29,7 +27,6 @@
     <p 
       in:typewriter 
       on:introend={nextLine} 
-      class:blink 
       class:cursor={line1}
     >
       front-end web developer
@@ -70,6 +67,7 @@
   .comment {
     font-style: italic;
     color: #928374;
+    overflow: hidden;
   }
 
   .cursor::after {
