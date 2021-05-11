@@ -67,7 +67,6 @@
   .comment {
     font-style: italic;
     color: #928374;
-    overflow: hidden;
   }
 
   .cursor::after {
