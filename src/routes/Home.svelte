@@ -73,7 +73,6 @@
     content: "|";
     color: var(--light-purple);
     font-style: normal;
-    position: absolute;
   }
 
   @keyframes blink {
