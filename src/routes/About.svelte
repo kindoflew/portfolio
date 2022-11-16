@@ -10,15 +10,10 @@
   <section>
     <div class="paragraph">
       <p>
-        Hi! I'm a front-end web developer based in New Jersey. I have a BA in Jazz
-        Performance and a Masters in Music Education. After the pandemic started I
-        began teaching myself how to code and now I'm making
-        web apps with modern JavaScript and contributing to open-source projects
-        on GitHub! I'm currently a maintainer of 
+        Hi! I'm a web developer based in Philadelphia. I have a BA in Jazz
+        Performance and a Masters in Music Education. Currently, I'm working as a Software Engineer at OmbuLabs. I also love open source and I'm one of the maintainers of 
         <a href="https://github.com/pmndrs/react-spring/tree/master/packages/parallax" target="_blank" rel="noopener noreferrer">
-          @react-spring/parallax</a> (and <em>technically</em> a 
-        <a href="https://github.com/sveltejs/svelte/commit/bf3535317038886b00e274b5225942a810f35158" target="_blank" rel="noopener noreferrer">
-          Svelte contributor</a>).
+          @react-spring/parallax</a>.
       </p>
       <p>
         I like to put accessibility and responsive design at the front of my brain
@@ -49,7 +44,7 @@
           <li>Node.js</li>
           <li>git</li>
           <li>Svelte/SvelteKit</li>
-          <li>React/Next</li>
+          <li>React/NextJS</li>
         </ul>
       </div>
     </div>
