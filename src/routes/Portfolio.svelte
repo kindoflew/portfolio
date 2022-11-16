@@ -10,11 +10,11 @@
       img: "svelte-parallax.png",
     },
     {
-      title: "Winter Eyes, LLC",
-      url: "https://www.wintereyesnj.com",
-      code: "https://github.com/kindoflew/winter-eyes-nj",
-      description: "A website for a local property management company.",
-      img: "wintereyes.png",
+      title: "idkwid",
+      url: "https://idkwid.netlify.app",
+      code: "https://github.com/kindoflew/idkwid",
+      description: "A blog built with SvelteKit and MDX",
+      img: "idkwid.png",
     },
     {
       title: "Pokedex",
