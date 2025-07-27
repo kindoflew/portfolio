@@ -1,5 +1,5 @@
 <script>
-  import PortfolioCard from "../components/PortfolioCard.svelte";
+  import PortfolioCard from "$lib/PortfolioCard.svelte";
 
   const projects = [
     {

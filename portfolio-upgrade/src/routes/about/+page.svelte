@@ -23,7 +23,7 @@
     <div class="paragraph">
       <p>
         Hi! I'm a web developer based in Philadelphia. I have a BA in Jazz
-        Performance and a Masters in Music Education. Currently, I'm working as a Seninor Front End Developer at One North Interactive. I also love open source and I've contributed to, maintained, and/or written a bunch of projects, including
+        Performance and a Masters in Music Education. Currently, I'm working as a Seninor Front End Developer at One North Interactive. I also love open source and I've written, maintained, and/or contributed to a bunch of projects, including
         <a href="https://github.com/pmndrs/react-spring/tree/master/packages/parallax" target="_blank" rel="noopener noreferrer">
           @react-spring/parallax</a>.
       </p>

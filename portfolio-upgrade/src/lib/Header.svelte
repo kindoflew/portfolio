@@ -1,5 +1,5 @@
 <script>
-  import { active } from "tinro";
+    import { page } from "$app/state";
 
   let paths = [
     { path: "/portfolio", text: "Portfolio" },
@@ -13,7 +13,7 @@
   <nav>
     <ul>
       {#each paths as { path, text }, index (index)}
-        <li><a href={path} use:active>{text}</a></li>
+        <li><a href={path} class:active="{page.url.pathname.includes(path)}">{text}</a></li>
       {/each}
     </ul>
   </nav>
@@ -68,7 +68,7 @@
 
   a[href="/"] {
     display: inline-block;
-    width: 15rem;
+    width: 16rem;
   }
 
   a[href="/"]:hover {
